@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-      <NavLink className="link" to="/">
+      <NavLink className="link" to="/designo-multipage-website-master/">
         <img
           className="brand-logo"
           src="../assets/shared/logo-dark.png"
@@ -38,13 +38,13 @@ export default function Header() {
         {showNavMobile ? (
             <div className="container-nav-mobile">
             <ul className="nav-mobile">
-            <NavLink className="link" to="/our-company">
+            <NavLink className="link" to="/designo-multipage-website-master/our-company">
               <li>OUR COMPANY</li>
             </NavLink>
-            <NavLink className="link" to="/locations">
+            <NavLink className="link" to="/designo-multipage-website-master/locations">
               <li>LOCATIONS</li>
             </NavLink>
-            <NavLink className="link" to="/contact">
+            <NavLink className="link" to="/designo-multipage-website-master/contact">
               <li>CONTACT</li>
             </NavLink>
           </ul>
@@ -52,13 +52,13 @@ export default function Header() {
         ) : null}
 
         <ul className="links-large-screen">
-          <NavLink className="link" to="/our-company">
+          <NavLink className="link" to="/designo-multipage-website-master/our-company">
             <li>OUR COMPANY</li>
           </NavLink>
-          <NavLink className="link" to="/locations">
+          <NavLink className="link" to="/designo-multipage-website-master/locations">
             <li>LOCATIONS</li>
           </NavLink>
-          <NavLink className="link" to="/contact">
+          <NavLink className="link" to="/designo-multipage-website-master/contact">
             <li>CONTACT</li>
           </NavLink>
         </ul>

@@ -12,10 +12,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/our-company" element={<OurCompany />} />
-          <Route path="/locations" element={<Locations />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/designo-multipage-website-master/" element={<Home />} />
+          <Route path="/designo-multipage-website-master/our-company" element={<OurCompany />} />
+          <Route path="/designo-multipage-website-master/locations" element={<Locations />} />
+          <Route path="/designo-multipage-website-master/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

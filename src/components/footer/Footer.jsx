@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-
 export default function Footer() {
   return (
     <footer>
@@ -13,20 +12,38 @@ export default function Footer() {
             Ready to take it to the next level? Contact us today and find out
             how our expertise can help your business grow.
           </p>
-          <button  className="btn-style1">Get in touch</button>
+          <button className="btn-style1">Get in touch</button>
         </div>
         <div className="brand-and-links">
           <div className="brand">
-            <img
-              src="../assets/shared/logo-light.png"
-              alt=""
-              className="logo"
-            />
+            <NavLink className="link" to="/designo-multipage-website-master/">
+              {" "}
+              <img
+                src="../assets/shared/logo-light.png"
+                alt=""
+                className="logo"
+              />
+            </NavLink>
           </div>
           <ul className="links">
-            <NavLink className='link' to='/our-company'><li>our company</li></NavLink> 
-            <NavLink className='link' to='/locations'><li>locations</li></NavLink> 
-            <NavLink className='link' to='/contact'><li>contact</li></NavLink> 
+            <NavLink
+              className="link"
+              to="/designo-multipage-website-master/our-company"
+            >
+              <li>our company</li>
+            </NavLink>
+            <NavLink
+              className="link"
+              to="/designo-multipage-website-master/locations"
+            >
+              <li>locations</li>
+            </NavLink>
+            <NavLink
+              className="link"
+              to="/designo-multipage-website-master/contact"
+            >
+              <li>contact</li>
+            </NavLink>
           </ul>
         </div>
 

@@ -7,7 +7,7 @@ export default function SectionLocations() {
     <div className="box">
       <img src="../assets/shared/desktop/illustration-canada.svg" alt="" />
       <h2>canada</h2>
-      <NavLink to='/locations'><button className="btn-style2">SEE LOCATION</button></NavLink>
+      <NavLink to='/designo-multipage-website-master/locations'><button className="btn-style2">SEE LOCATION</button></NavLink>
     </div>
 
     <div className="box">
@@ -16,7 +16,7 @@ export default function SectionLocations() {
         alt=""
       />
       <h2>australia</h2>
-      <NavLink to='/locations'><button className="btn-style2">SEE LOCATION</button></NavLink>
+      <NavLink to='/designo-multipage-website-master/locations'><button className="btn-style2">SEE LOCATION</button></NavLink>
     </div>
 
     <div className="box">
@@ -25,7 +25,7 @@ export default function SectionLocations() {
         alt=""
       />
       <h2>United kingdom</h2>
-      <NavLink to='/locations'><button className="btn-style2">SEE LOCATION</button></NavLink>
+      <NavLink to='/designo-multipage-website-master/locations'><button className="btn-style2">SEE LOCATION</button></NavLink>
     </div>
   </div>
   )
