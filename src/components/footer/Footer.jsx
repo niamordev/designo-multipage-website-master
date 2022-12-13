@@ -19,7 +19,7 @@ export default function Footer() {
             <NavLink className="link" to="/designo-multipage-website-master/">
               {" "}
               <img
-                src="../assets/shared/logo-light.png"
+                src="../designo-multipage-website-master/assets/shared/logo-light.png"
                 alt=""
                 className="logo"
               />
@@ -62,19 +62,19 @@ export default function Footer() {
 
           <div className="social-links">
             <a href="#">
-              <img src="../assets/shared/desktop/icon-facebook.svg" alt="" />
+              <img src="../designo-multipage-website-master/assets/shared/desktop/icon-facebook.svg" alt="" />
             </a>
             <a href="#">
-              <img src="../assets/shared/desktop/icon-instagram.svg" alt="" />
+              <img src="../designo-multipage-website-master/assets/shared/desktop/icon-instagram.svg" alt="" />
             </a>
             <a href="#">
-              <img src="../assets/shared/desktop/icon-twitter.svg" alt="" />
+              <img src="../designo-multipage-website-master/assets/shared/desktop/icon-twitter.svg" alt="" />
             </a>
             <a href="#">
-              <img src="../assets/shared/desktop/icon-pinterest.svg" alt="" />
+              <img src="../designo-multipage-website-master/assets/shared/desktop/icon-pinterest.svg" alt="" />
             </a>
             <a href="#">
-              <img src="../assets/shared/desktop/icon-youtube.svg" alt="" />
+              <img src="../designo-multipage-website-master/assets/shared/desktop/icon-youtube.svg" alt="" />
             </a>
           </div>
         </div>

@@ -10,12 +10,12 @@ export default function Locations() {
       <div className="box-location">
         <img
           className="mobile-desktop"
-          src="../../assets/locations/desktop/image-map-canada.png"
+          src="../../designo-multipage-website-master/assets/locations/desktop/image-map-canada.png"
           alt=""
         />
         <img
           className="tablet"
-          src="../../assets/locations/tablet/image-map-canada.png"
+          src="../../designo-multipage-website-master/assets/locations/tablet/image-map-canada.png"
           alt=""
         />
         <div className="content">
@@ -46,12 +46,12 @@ export default function Locations() {
       <div className="box-location reverse">
         <img
           className="mobile-desktop"
-          src="../../assets/locations/desktop/image-map-australia.png"
+          src="../../designo-multipage-website-master/assets/locations/desktop/image-map-australia.png"
           alt=""
         />
         <img
           className="tablet"
-          src="../../assets/locations/tablet/image-map-australia.png"
+          src="../../designo-multipage-website-master/assets/locations/tablet/image-map-australia.png"
           alt=""
         />
         <div className="content">
@@ -82,12 +82,12 @@ export default function Locations() {
       <div className="box-location">
         <img
           className="mobile-desktop"
-          src="../../assets/locations/desktop/image-map-united-kingdom.png"
+          src="../../designo-multipage-website-master/assets/locations/desktop/image-map-united-kingdom.png"
           alt=""
         />
         <img
           className="tablet"
-          src="../../assets/locations/tablet/image-map-united-kingdom.png"
+          src="../../designo-multipage-website-master/assets/locations/tablet/image-map-united-kingdom.png"
           alt=""
         />
         <div className="content">

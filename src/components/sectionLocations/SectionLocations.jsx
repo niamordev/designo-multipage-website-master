@@ -5,14 +5,14 @@ export default function SectionLocations() {
   return (
     <div id="sectionLocations">
     <div className="box">
-      <img src="../assets/shared/desktop/illustration-canada.svg" alt="" />
+      <img src="../designo-multipage-website-master/assets/shared/desktop/illustration-canada.svg" alt="" />
       <h2>canada</h2>
       <NavLink to='/designo-multipage-website-master/locations'><button className="btn-style2">SEE LOCATION</button></NavLink>
     </div>
 
     <div className="box">
       <img
-        src="../assets/shared/desktop/illustration-australia.svg"
+        src="../designo-multipage-website-master/assets/shared/desktop/illustration-australia.svg"
         alt=""
       />
       <h2>australia</h2>
@@ -21,7 +21,7 @@ export default function SectionLocations() {
 
     <div className="box">
       <img
-        src="../assets/shared/desktop/illustration-united-kingdom.svg"
+        src="../designo-multipage-website-master/assets/shared/desktop/illustration-united-kingdom.svg"
         alt=""
       />
       <h2>United kingdom</h2>

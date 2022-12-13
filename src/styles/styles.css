@@ -56,7 +56,7 @@ footer {
   width: 100vw;
 }
 footer .aside-content {
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-call-to-action.svg);
+  background-image: url(../../public/designo-multipage-website-master/assets/shared/desktop/bg-pattern-call-to-action.svg);
   background-repeat: no-repeat;
   background-size: 267%;
   background-position: 29% 36%;
@@ -224,7 +224,7 @@ header .container-nav-mobile .nav-mobile {
   gap: 20px;
 }
 #sectionLocations .box img {
-  background: url(../assets/home/bg-pattern-small-circle.svg);
+  background: url(../designo-multipage-website-master/assets/home/bg-pattern-small-circle.svg);
 }
 #sectionLocations .box h2 {
   font-weight: 500;
@@ -337,7 +337,7 @@ header .container-nav-mobile .nav-mobile {
 #home #advantages img {
   width: 50%;
   margin: auto;
-  background-image: url(../../../public/assets/shared/desktop/bg-pattern-small-circle.svg);
+  background-image: url(../../../public/designo-multipage-website-master/assets/shared/desktop/bg-pattern-small-circle.svg);
   background-position: 30% 30%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -624,14 +624,14 @@ header .container-nav-mobile .nav-mobile {
   display: flex;
   flex-direction: column;
   background-color: #e78168;
-  background-image: url(../../public/assets/home/desktop/bg-pattern-hero-home.svg);
+  background-image: url(../../public/designo-multipage-website-master/assets/home/desktop/bg-pattern-hero-home.svg);
   background-position: 50% 40%;
   background-size: 85%;
   background-repeat: no-repeat;
 }
 #ourCompanyIntroduction .box-about-us {
   padding: 4rem 2rem;
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-three-circles.svg);
+  background-image: url(../../public/designo-multipage-website-master/assets/shared/desktop/bg-pattern-three-circles.svg);
   color: #ffffff;
   text-align: center;
   display: flex;
@@ -645,7 +645,7 @@ header .container-nav-mobile .nav-mobile {
 }
 #ourCompanyWorldClassTalent .box {
   background-color: #fdf3f0;
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-three-circles.svg);
+  background-image: url(../../public/designo-multipage-website-master/assets/shared/desktop/bg-pattern-three-circles.svg);
   padding: 4rem 2rem;
   text-align: center;
   display: flex;
@@ -665,7 +665,7 @@ header .container-nav-mobile .nav-mobile {
   background-color: #fdf3f0;
 }
 #ourCompanyTheRealDeal .box {
-  background-image: url(../../public/assets/shared/desktop/bg-pattern-three-circles.svg);
+  background-image: url(../../public/designo-multipage-website-master/assets/shared/desktop/bg-pattern-three-circles.svg);
   display: flex;
   flex-direction: column;
   text-align: center;

@@ -13,7 +13,7 @@ export default function Header() {
       <NavLink className="link" to="/designo-multipage-website-master/">
         <img
           className="brand-logo"
-          src="../assets/shared/logo-dark.png"
+          src="../designo-multipage-website-master/assets/shared/logo-dark.png"
           alt=""
         />
         </NavLink>
@@ -22,7 +22,7 @@ export default function Header() {
           <img
             onClick={() => handleNavMobile()}
             className='btn-nav-mobile'
-            src="../assets/shared/mobile/icon-close.svg"
+            src="../designo-multipage-website-master/assets/shared/mobile/icon-close.svg"
             alt=""
           />
         ) : (
@@ -30,7 +30,7 @@ export default function Header() {
             onClick={() => handleNavMobile()}
             className='btn-nav-mobile'
             id="hamburger"
-            src="../assets/shared/mobile/icon-hamburger.svg"
+            src="../designo-multipage-website-master/assets/shared/mobile/icon-hamburger.svg"
             alt=""
           />
         )}

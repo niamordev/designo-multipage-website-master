@@ -19,29 +19,29 @@ export default function Home() {
           </p>
           <button className="btn-style1">Learn more</button>
         </div>
-        <img src="../../assets/home/desktop/image-hero-phone.png" alt="" />
+        <img src="../../designo-multipage-website-master/assets/home/desktop/image-hero-phone.png" alt="" />
       </div>
 
       <div id="category">
         <div className="box box1">
           <img
             className="mobile"
-            src="../../assets/home/mobile/image-web-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/mobile/image-web-design.jpg"
             alt=""
           />
           <img
             className="tablet"
-            src="../../assets/home/tablet/image-web-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/tablet/image-web-design.jpg"
             alt=""
           />
           <img
             className="desktop large-screen"
-            src="../../assets/home/desktop/image-web-design-small.jpg"
+            src="../../designo-multipage-website-master/assets/home/desktop/image-web-design-small.jpg"
             alt=""
           />
           <img
             className="desktop extra-large-screen"
-            src="../../assets/home/desktop/image-web-design-large.jpg"
+            src="../../designo-multipage-website-master/assets/home/desktop/image-web-design-large.jpg"
             alt=""
           />
           <div className="content">
@@ -53,17 +53,17 @@ export default function Home() {
         <div className="box box2">
           <img
             className="mobile"
-            src="../../assets/home/mobile/image-app-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/mobile/image-app-design.jpg"
             alt=""
           />
           <img
             className="tablet"
-            src="../../assets/home/tablet/image-app-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/tablet/image-app-design.jpg"
             alt=""
           />
           <img
             className="desktop"
-            src="../../assets/home/desktop/image-app-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/desktop/image-app-design.jpg"
             alt=""
           />
           <div className="content">
@@ -75,17 +75,17 @@ export default function Home() {
         <div className="box  box3">
           <img
             className="mobile"
-            src="../../assets/home/mobile/image-graphic-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/mobile/image-graphic-design.jpg"
             alt=""
           />
           <img
             className="tablet"
-            src="../../assets/home/tablet/image-graphic-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/tablet/image-graphic-design.jpg"
             alt=""
           />
           <img
             className="desktop"
-            src="../../assets/home/desktop/image-graphic-design.jpg"
+            src="../../designo-multipage-website-master/assets/home/desktop/image-graphic-design.jpg"
             alt=""
           />
           <div className="content">
@@ -98,7 +98,7 @@ export default function Home() {
       <div id="advantages">
         <div className="box">
           <img
-            src="../../assets/home/desktop/illustration-friendly.svg"
+            src="../../designo-multipage-website-master/assets/home/desktop/illustration-friendly.svg"
             alt=""
           />
           <div className="content-text">
@@ -113,7 +113,7 @@ export default function Home() {
 
         <div className="box">
           <img
-            src="../../assets/home/desktop/illustration-friendly.svg"
+            src="../../designo-multipage-website-master/assets/home/desktop/illustration-friendly.svg"
             alt=""
           />
           <div className="content-text">
@@ -128,7 +128,7 @@ export default function Home() {
 
         <div className="box">
           <img
-            src="../../assets/home/desktop/illustration-friendly.svg"
+            src="../../designo-multipage-website-master/assets/home/desktop/illustration-friendly.svg"
             alt=""
           />
           <div className="content-text">

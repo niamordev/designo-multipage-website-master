@@ -9,7 +9,7 @@ export default function OurCompany() {
     <Header />
     <div id="ourCompany">
       <div id="ourCompanyIntroduction">
-        <img src="../assets/about/mobile/image-about-hero.jpg" alt="" />
+        <img src="../designo-multipage-website-master/assets/about/mobile/image-about-hero.jpg" alt="" />
         <div className="box-about-us">
           <h1>About us</h1>
           <p>
@@ -24,7 +24,7 @@ export default function OurCompany() {
       </div>
 
       <div id="ourCompanyWorldClassTalent">
-        <img src="../assets/about/mobile/image-world-class-talent.jpg" alt="" />
+        <img src="../designo-multipage-website-master/assets/about/mobile/image-world-class-talent.jpg" alt="" />
         <div className="box">
           <h1>World-class talent</h1>
           <p>
@@ -48,7 +48,7 @@ export default function OurCompany() {
 <SectionLocations />
 
       <div id="ourCompanyTheRealDeal">
-        <img src="../assets/about/mobile/image-real-deal.jpg" alt="" />
+        <img src="../designo-multipage-website-master/assets/about/mobile/image-real-deal.jpg" alt="" />
         <div className="box">
           <h1>The real deal</h1>
           <p>
