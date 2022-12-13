@@ -1,0 +1,108 @@
+#ourCompanyIntroduction {
+    display: flex;
+    flex-direction: column;
+    background-color: $PriColorPeach;
+    background-image: url(../../public/assets/home/desktop/bg-pattern-hero-home.svg);
+    background-position: 50% 40%;
+    background-size: 85%;
+    background-repeat: no-repeat;
+  
+    .box-about-us {
+      padding: 4rem 2rem;
+      background-image: url(../../public/assets/shared/desktop/bg-pattern-three-circles.svg);
+      color: $PriColorWhite;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  #ourCompanyWorldClassTalent {
+    display: flex;
+    flex-direction: column;
+  
+    .box {
+      background-color: $VeryLightPeach;
+      background-image: url(../../public/assets/shared/desktop/bg-pattern-three-circles.svg);
+      padding: 4rem 2rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      h1 {
+        color: $PriColorPeach;
+      }
+    }
+  }
+  
+
+  #ourCompanyTheRealDeal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 250px;
+    background-color: $VeryLightPeach;
+  
+    .box {
+      background-image: url(../../public/assets/shared/desktop/bg-pattern-three-circles.svg);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 4rem 2rem;
+      gap: 20px;
+  
+      h1 {
+        font-weight: 600;
+        color: $PriColorPeach;
+      }
+    }
+  }
+  
+  
+  
+  @media screen and (min-width:500px) {
+  
+    #ourCompany{
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+  
+  
+    }
+  
+    #ourCompany> div{
+        
+      border-radius: 15px;
+      overflow: hidden;
+      }
+  
+  
+    
+  }
+  
+  
+  
+  @media screen and (min-width:1100px) {
+    #ourCompanyIntroduction{
+      flex-direction: row-reverse;
+    }
+  
+    #ourCompanyWorldClassTalent{
+      flex-direction: row;
+  
+    }
+  
+    #ourCompanyLocations{
+      flex-direction: row;
+      justify-content: space-evenly;
+  
+    }
+  
+    #ourCompanyTheRealDeal{
+      flex-direction: row-reverse;
+  
+    }
+  }

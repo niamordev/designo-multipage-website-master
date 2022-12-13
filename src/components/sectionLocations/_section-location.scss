@@ -1,0 +1,51 @@
+
+
+#sectionLocations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 80px 0;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 20px;
+
+    img {
+      background: url(../assets/home/bg-pattern-small-circle.svg);
+    }
+
+    h2 {
+      font-weight: 500;
+      color: $PriColorPeach;
+      font-size: 1.4rem;
+      letter-spacing: 5px;
+    }
+
+    button {
+      background-color: $PriColorPeach;
+      padding: 1.2rem 1.5rem;
+      border-radius: 6px;
+      border: none;
+      color: $PriColorWhite;
+      font-weight: bolder;
+      font-size: 1rem;
+    }
+  }
+}
+
+
+
+@media screen and (min-width:1100px) {
+  #sectionLocations{
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+
+}

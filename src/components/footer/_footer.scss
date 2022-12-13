@@ -1,0 +1,119 @@
+footer {
+  background-color: $PriColorBlack;
+  color: $PriColorWhite;
+  padding: 200px 30px 30px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100vw;
+
+  .aside-content {
+    background-image: url(../../public/assets/shared/desktop/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-size: 267%;
+    background-position: 29% 36%;
+    position: absolute;
+    background-color: $PriColorPeach;
+    width: 100%;
+    top: -470px;
+    padding: 70px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    button {
+      background-color: $PriColorWhite;
+      border: none;
+      color: $SecColorDarkGrey;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: auto;
+      border-radius: 6px;
+      padding: 15px 35px;
+      margin-top: 20px;
+    }
+  }
+
+  .brand-and-links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .infos-and-socials-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .content-footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .brand {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #979797;
+
+    img {
+      width: 70%;
+      max-width: 250px;
+    }
+  }
+
+  .links {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  .social-links {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  footer {
+    padding: 200px 60px 100px 60px;
+    .brand-and-links {
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 2px solid #979797;
+      margin-bottom: 30px;
+    }
+
+    .links {
+      flex-direction: row;
+      gap: 20px;
+
+    }
+
+    .brand {
+      max-width: 200px;
+      border-bottom: none;
+    }
+
+    .social-links {
+      margin: 0;
+    }
+    .infos-and-socials-links {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+
+    .aside-content {
+      top: -380px;
+    }
+  }
+}
+
