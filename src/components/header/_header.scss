@@ -8,6 +8,7 @@ header {
 
     .btn-nav-mobile{
       width: 30px;
+      cursor: pointer;
     }
 
     .brand-logo {
@@ -21,6 +22,7 @@ header {
   }
 
   .container-nav-mobile {
+    z-index: 3;
     position: absolute;
     transform: translateY(100%);
     background-color: $SecColorDarkGrey;
