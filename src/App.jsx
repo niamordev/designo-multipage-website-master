@@ -5,12 +5,14 @@ import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
 import Locations from "./pages/locations/Locations";
 import OurCompany from "./pages/ourCompany/OurCompany";
+import HookScrollToTop from "./hooks/HookScrollToTop"
 import "./styles/styles.css";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <HookScrollToTop />
         <Routes>
           <Route path="/designo-multipage-website-master/" element={<Home />} />
           <Route path="/designo-multipage-website-master/our-company" element={<OurCompany />} />

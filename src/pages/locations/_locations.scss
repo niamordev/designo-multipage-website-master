@@ -5,6 +5,13 @@
   padding-bottom: 300px;
 
   .box-location {
+      display: flex;
+      flex-direction: column;
+
+      img{
+        width: 100%;
+      }
+
     .content {
       text-align: center;
       display: flex;

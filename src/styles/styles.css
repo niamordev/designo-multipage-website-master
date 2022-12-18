@@ -469,6 +469,13 @@ header .container-nav-mobile .nav-mobile {
   gap: 40px;
   padding-bottom: 300px;
 }
+#locations .box-location {
+  display: flex;
+  flex-direction: column;
+}
+#locations .box-location img {
+  width: 100%;
+}
 #locations .box-location .content {
   text-align: center;
   display: flex;
